@@ -15,3 +15,38 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0.5rem;
+}
+
+header {
+  background-color: ;
+}
+
+h1 {
+  padding-top: 1rem;
+  float: left;
+  width: 40%;
+  margin: 0;
+}
+
+nav {
+  float: right;
+  width: 89%;
+  text-align: right;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+    margin-top: 0;
+}
