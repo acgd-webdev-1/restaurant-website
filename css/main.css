@@ -132,8 +132,73 @@ h2 {
   background-color: #ccc;
 }
 
-.card-image .cards {
-  max-width: 40%;
-  max-height: 40%;
+.img-flex-banner {
+  width: 50%;;
   float: left;
+}
+
+.cards {
+  position: relative;
+}
+
+.links-1 {
+  position: absolute;
+  right: 14rem;
+  top: 5rem;
+  text-align: center;
+}
+
+.links-2 {
+  position: absolute;
+  left: 14.5rem;
+  top: 5rem;
+  text-align: center;
+}
+
+.links-3 {
+  position: absolute;
+  right: 15rem;
+  top: 15rem;
+  text-align: center;
+}
+
+.links-4 {
+  position: absolute;
+  left: 14rem;
+  top: 17rem;
+  text-align: center;
+}
+
+.btn-1 {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: 0.4em;
+  border: 3px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding: 0.4em 0.75em 0.3em;
+}
+
+.btn-2 {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: 0.5em;
+  border: 3px solid #333;
+  background-color: #333;
+  margin-left: 3rem;
+  color: #fff;
+  padding: 0.4em 0.75em 0.3em;
+}
+
+.btn-ghost-card {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-ghost-card:hover {
+  background-color: #ccc;
 }
