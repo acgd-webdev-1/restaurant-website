@@ -17,24 +17,73 @@ html {
 }
 
 body {
-  margin: 0.5rem;
+  margin: 0;
 }
 
 header {
-  background-color: ;
+  overflow: hidden;
+  background-color: #333;
 }
 
 h1 {
   padding-top: 1rem;
   float: left;
-  width: 40%;
+  width: 20%;
   margin: 0;
 }
 
 nav {
   float: right;
-  width: 89%;
+  width: 80%;
   text-align: right;
+}
+
+.nav {
+  display: none;
+  margin: 0;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 40px;
+  display: inline-block;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:ckecked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:ckecked ~ .nav-label .nav-close {
+  display: none;
+}
+
+.nav a {
+  padding: 0.5em;
+  color: #fff;
 }
 
 .img-flex {
@@ -43,10 +92,29 @@ nav {
   margin: auto;
 }
 
-li {
+li a {
   display: inline-block;
+  text-decoration: none;
 }
 
 ul {
     margin-top: 0;
+    list-style-type: none;
+}
+
+.banner {
+  width: auto;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 1rem;
+}
+
+.first-image {
+  width: 30%;
+  float: left;
+  padding-right: 1rem;
+}
+
+h2 {
+  display: block;
 }
