@@ -206,3 +206,11 @@ h2 {
 .btn-ghost-card:hover {
   background-color: #ccc;
 }
+
+.menu-section {
+  margin: auto;
+}
+
+.menu-section img{
+width: 50%;
+}
