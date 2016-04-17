@@ -95,7 +95,7 @@ nav {
 
 p {
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: normal;
   margin: 0;
 }
@@ -211,6 +211,51 @@ h2 {
   margin: auto;
 }
 
-.menu-section img{
+.menu-section img {
 width: 50%;
+}
+
+.img-flex-section {
+  margin: 1rem;
+  width: 40%;
+  float: left;
+}
+
+.img-flex-section-2 {
+  margin: 1rem;
+  width: 40%;
+  float: right;
+}
+
+footer {
+  background-color: #ccc;
+  color: #000;
+}
+
+.img-footer {
+  float: left;
+  width: 10%;
+  background-color: #ccc;
+  color: #000;
+}
+
+small {
+  float: left;
+  background-color: #ccc;
+  color: #000;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
 }
