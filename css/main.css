@@ -20,19 +20,24 @@ html {
 img {
   width: 100%;
   display: block;
+  margin: 0;
 }
 
-.banner {
- background-color: #0b9d88;
+.banner-nav {
  margin: 0;
  color: #fff;
  max-height: 500px;
- position: relative;
+ position: absolute;
+ top: 0;
+ right: 2%;
 }
 
 h1 {
   margin: 0;
   font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  color: #fff;
 }
 
 nav ul {
@@ -69,6 +74,8 @@ body {
   max-width: 45em;
   transform: translateX(-50%);
   padding: 0 1rem 0 1rem;
+  color: #fff;
+  margin: 0;
 }
 
 .btn {
@@ -97,7 +104,6 @@ body {
 }
 
 h2 {
-  color: #fff;
   font-size: 4rem;
   width: 100%;
   padding: 0;
@@ -107,7 +113,6 @@ h2 {
 }
 
 p {
-  color: #fff;
   font-size: 2rem;
   margin: 1.2rem 0;
 }
