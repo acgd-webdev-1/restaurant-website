@@ -51,6 +51,23 @@ nav ul {
   padding: 0;
 }
 
+nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
 nav li {
   text-align: left;
   list-style-type: none;
@@ -168,7 +185,6 @@ h4 {
   color: #000;
   position: absolute;
   top: 3rem;
-  float: right;
 }
 
 p {
@@ -199,13 +215,13 @@ p {
   }
 
   .section-content-left {
-    width: 48%;
+    width: 49%;
     float: left;
     padding-left: 0.5rem;
   }
 
   .section-content-right {
-    width: 48%;
+    width: 49%;
     float: right;
   }
 
