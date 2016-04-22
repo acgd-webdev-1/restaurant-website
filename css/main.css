@@ -17,19 +17,23 @@ html {
   box-sizing: inherit;
 }
 
-img {
+header {
+  width: 100%;
+}
+
+.banner-img {
   width: 100%;
   display: block;
   margin: 0;
 }
 
 .banner-nav {
- margin: 0;
- color: #fff;
- max-height: 500px;
- position: absolute;
- top: 0;
- right: 2%;
+  margin: 0;
+  color: #fff;
+  max-height: 500px;
+  position: absolute;
+  top: 0;
+  right: 2%;
 }
 
 h1 {
@@ -37,6 +41,7 @@ h1 {
   font-size: 1.5rem;
   position: absolute;
   top: 0;
+  left: 2%;
   color: #fff;
 }
 
@@ -47,6 +52,7 @@ nav ul {
 
 nav li {
   text-align: left;
+  list-style-type: none;
 }
 
 nav a {
@@ -112,11 +118,49 @@ h2 {
   display: inline;
 }
 
-p {
-  font-size: 2rem;
+h3 {
+  font-size: 1.5rem;
   margin: 1.2rem 0;
+  text-align: center;
 }
 
+h4 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section-img-right {
+  width: 50%;
+  float: right;
+}
+
+.section-img-left {
+  width: 50%;
+  float: left;
+}
+
+.section {
+  display: block;
+  border-top: 0.25px solid #000;
+  border-bottom: 0.1px solid #000;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-img {
+  margin: 0;
+}
+
+.footer-nav {
+  color: #000;
+}
+
+p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -144,8 +188,6 @@ p {
   }
 
   header {
-    padding-left: 1rem;
-    padding-right: 1rem;
     text-align: left;
   }
 
@@ -158,6 +200,15 @@ p {
   h1 {
     margin-bottom: 0;
     margin-right: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 
 }
