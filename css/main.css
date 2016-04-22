@@ -43,6 +43,7 @@ h1 {
   top: 0;
   left: 2%;
   color: #fff;
+  padding-top: 0.5rem;
 }
 
 nav ul {
@@ -82,6 +83,7 @@ body {
   padding: 0 1rem 0 1rem;
   color: #fff;
   margin: 0;
+  text-align: center;
 }
 
 .btn {
@@ -110,7 +112,7 @@ body {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -129,20 +131,29 @@ h4 {
   padding-right: 0.5rem;
 }
 
-.section-img-right {
-  width: 50%;
+ {
+  width: 100%;
   float: right;
 }
 
-.section-img-left {
-  width: 50%;
+.section-img {
+  width: 100%;
   float: left;
+}
+
+.section-content-left {
+  width: 100%;
+}
+
+.section-content-right {
+  width: 100%;
 }
 
 .section {
   display: block;
-  border-top: 0.25px solid #000;
-  border-bottom: 0.1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
 }
 
 .footer {
@@ -155,6 +166,9 @@ h4 {
 
 .footer-nav {
   color: #000;
+  position: absolute;
+  top: 3rem;
+  float: right;
 }
 
 p {
@@ -176,6 +190,29 @@ p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .section-img-right {
+    float: right;
+    width: 50%;
+    padding: 1rem;
+  }
+
+  .section-content-left {
+    width: 48%;
+    float: left;
+    padding-left: 0.5rem;
+  }
+
+  .section-content-right {
+    width: 48%;
+    float: right;
+  }
+
+  .section-img-left {
+    float: left;
+    width: 50%;
+    padding: 1rem;
   }
 
 }
