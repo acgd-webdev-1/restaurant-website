@@ -60,6 +60,7 @@ main {
   position: absolute;
   right: 2%;
   display: block;
+
 }
 
 h1 {
@@ -77,6 +78,9 @@ nav ul {
 nav li {
   text-align: left;
   list-style-type: none;
+  width: 100%;
+  display: block;
+  text-align: right;
 }
 
 nav a {
@@ -186,6 +190,7 @@ img {
   padding-top: 0.5rem;
   padding-right: 0.5rem;
   position: absolute;
+  top: 0;
 }
 
 .section-img {
@@ -239,22 +244,20 @@ small {
 
   nav li {
     display: inline-block;
-    text-align: center;
   }
 
 
   h2 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
 
   h3 {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
   .btn {
     font-size: 1rem;
   }
- s
 }
 
 @media only screen and (min-width: 38em) {
@@ -290,7 +293,6 @@ small {
   h2 {
     font-size: 3rem;
   }
-
 
 }
 
