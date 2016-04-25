@@ -20,6 +20,7 @@ html {
 
 body {
   margin: 0;
+  font-family: serif, "Slabo";
 }
 
 header {
@@ -77,6 +78,10 @@ nav {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+h2 {
+  font-family: sans-serif, "Droid-Sans";
 }
 
 .banner {
