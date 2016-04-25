@@ -307,7 +307,12 @@ small {
 
   .btn {
     font-size: 0.8rem;
+  }
 
+  .banner-content {
+    left: 15%;
+
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -360,6 +365,11 @@ small {
     top: 0;
   }
 
+  .banner-content {
+    left: 25%;
+    top: 15%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -367,6 +377,11 @@ small {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .banner-content {
+    left: 30%;
+    top: 20%;
   }
 
 }
