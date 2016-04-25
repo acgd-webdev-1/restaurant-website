@@ -25,13 +25,30 @@ html {
 
 header {
   width: 100%;
+  position: absolute;
+  z-index: 2000;
+}
+
+main {
+  clear: both;
 }
 
 .banner-img {
   width: 100%;
-  height: 1rem;
+  height: 100%;
   display: block;
   margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-whole {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  left: 20%;
 }
 
 .banner-nav {
@@ -46,9 +63,6 @@ header {
 h1 {
   margin: 0;
   font-size: 1.5rem;
-  position: absolute;
-  top: 0;
-  left: 2%;
   color: #fff;
   padding-top: 0.5rem;
 }
@@ -81,12 +95,7 @@ body {
 
 .banner-body {
   font-style: italic;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  width: 100%;
   max-width: 45em;
-  transform: translateX(-50%);
   padding: 0 1rem 0 1rem;
   color: #fff;
   margin: 0;
@@ -103,14 +112,6 @@ body {
   font-size: 0.5rem;
   margin: 6px;
   border: 1px solid #fff;
-  position: absolute;
-}
-
-.btn-ghost {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  transform: translateX(-50%);
 }
 
 .btn:hover {
@@ -144,11 +145,11 @@ img {
   float: right;
 }
 
-.nav-check:checked ~ .nav {
+.nav-check:checked ~ .banner-nav {
   display: block;
 }
 
-nav {
+.banner-nav {
   display: none;
 }
 
@@ -161,21 +162,32 @@ nav {
   background-color: grey;
 }
 
-.nav-label img {
-  display: block;
+.nav-icon-open, .nav-icon-close {
   width: 50px;
 }
 
-.nav-icon-open, .nav-icon-close {
-  width: 40px;
-  float: right;
+.nav-icon-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-close {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-open {
+  display: none;
 }
 
 .nav-label {
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
-  width: 40px;
+  width: 50px;
+  float: right;
+  right: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  position: absolute;
 }
 
 .section-img {
@@ -244,13 +256,7 @@ small {
   .btn {
     font-size: 1rem;
   }
-
-  .btn-ghost {
-    position: absolute;
-    left: 50%;
-    bottom: 45%;
-
-  }
+ s
 }
 
 @media only screen and (min-width: 38em) {
