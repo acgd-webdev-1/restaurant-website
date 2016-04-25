@@ -60,7 +60,6 @@ nav {
   float: right;
   width: 90px;
   text-align: right;
-  font-size: 16px;
 }
 
 .image-nav {
@@ -311,8 +310,8 @@ small {
 
   .card-banner {
     position: absolute;
-    top: 2em;
-    left: 13em;
+    top: 5em;
+    left: 17em;
     transform: translateX(-50%);
     margin: 0;
     max-width: 50em;
@@ -330,8 +329,8 @@ small {
     color: #000;
     padding: 0.4em 0.75em 0.3em;
     position: absolute;
-    bottom: 1.5em;
-    left: 7em;
+    bottom: 5em;
+    left: 11em;
   }
 
   .cards {
@@ -343,29 +342,34 @@ small {
   .links-1 {
     position: absolute;
     right: 1rem;
-    top: 3.5rem;
+    top: 6rem;
     width: 80%;
   }
 
   .links-2 {
     position: absolute;
-    left: 2rem;
-    top: 4.5rem;
+    left: 3rem;
+    top: 6rem;
   }
 
   .links-3 {
     position: absolute;
     left: 2.5rem;
-    top: 4rem;
+    top: 6rem;
     width: 60%;
   }
 
   .links-4 {
     position: absolute;
     left: 1rem;
-    top: 3.5rem;
+    top: 5rem;
     width: 80%;
   }
+
+.img-flex-section {
+  float: left;
+  width: 60%;
+}
 
 }
 
@@ -394,13 +398,10 @@ small {
 
   .card-banner {
     position: absolute;
-    top: 6rem;
-    left: 17rem;
+    top: 12rem;
+    left: 22rem;
   }
 
-  .cards {
-    width: 25%;
-  }
 
   .img-flex-2 {
     display: block;
@@ -409,13 +410,57 @@ small {
 
   .btn {
     position: absolute;
-    bottom: 7rem;
-    left: 13rem;
+    bottom: 8rem;
+    left: 19rem;
   }
 
-  .img-flex-section {
-    float: right;
-    width: 30%;
+  .cards{
+    width: 25%;
+  }
+
+  .section-right .section-2 p {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  .section-right .section-2 h2 {
+    font-size: 2em;
+    padding-top: 1em;
+  }
+
+  .section-left .section-1 p {
+    font-size: 1em;
+  }
+
+  .section-left .section-1 h2 {
+    font-size: 1em;
+    padding-top: 7em;
+  }
+
+  .links-1 {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    width: 80%;
+  }
+
+  .links-2 {
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+  }
+
+  .links-3 {
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+  }
+
+  .links-4 {
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    width: 80%;
   }
 
 }
@@ -428,8 +473,59 @@ small {
 
 .card-banner {
   position: absolute;
-  top: 14rem;
-  left: 26rem;
+  top: 15rem;
+  left: 34rem;
 }
+
+.btn {
+  position: absolute;
+  bottom: 13em;
+  left: 27em;
+}
+
+.links-1 {
+  position: absolute;
+  right: 2rem;
+  top: 6rem;
+}
+
+.links-2 {
+  position: absolute;
+  left: 5rem;
+  top: 6.5rem;
+}
+
+.links-3 {
+  position: absolute;
+  left: 3rem;
+  top: 7.5rem;
+}
+
+.links-4 {
+  position: absolute;
+  left: 2rem;
+  top: 6.5rem;
+}
+
+footer {
+  clear: both;
+}
+
+.section-right .section-2 h2 {
+  padding-top: 6em;
+}
+
+.section-left .section-1 h2 {
+  font-size: 1em;
+  padding-top: 15em;
+}
+
+}
+
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
 }
