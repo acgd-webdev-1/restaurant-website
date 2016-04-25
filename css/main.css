@@ -406,7 +406,7 @@ small {
   }
 
   .section-right .section-2 p {
-    font-size: 1.1rem;
+    font-size: .8rem;
     margin-top: 1em;
   }
 
@@ -416,7 +416,7 @@ small {
   }
 
   .section-left .section-1 p {
-    font-size: 1.1rem;
+    font-size: .8rem;
   }
 
   .section-left .section-1 h2 {
@@ -450,6 +450,7 @@ small {
 
   footer {
     font-size: 1rem;
+    clear: both;
   }
 
 }
@@ -509,5 +510,62 @@ small {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  .card-banner {
+    position: absolute;
+    top: 13rem;
+    left: 57rem;
+    font-size: 2rem;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 13em;
+    left: 48em;
+  }
+
+  .links-1 {
+    position: absolute;
+    right: 10rem;
+    top: 15rem;
+  }
+
+  .links-2 {
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    text-align: center;
+  }
+
+  .links-3 {
+    position: absolute;
+    left: 5rem;
+    top: 16rem;
+    text-align: center;
+  }
+
+  .links-4 {
+    position: absolute;
+    left: 7rem;
+    top: 15rem;
+    text-align: center;
+  }
+
+  .img-flex-section {
+    width: 50%;
+  }
+
+  .img-flex-section-2 {
+    width: 50%;
+  }
+
+  .footer-content{
+    margin-left: 9em;
+  }
+
+  .footer-content-2 {
+    margin-right: 9em;
+  }
+
 
 }
