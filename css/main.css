@@ -80,7 +80,6 @@ nav {
   width: 100%;
 }
 
-
 .banner {
   overflow: hidden;
   border: 2px solid #ccc;
@@ -144,7 +143,6 @@ h2 {
   background-color: #ccc;
 }
 
-
 .cards {
   position: relative;
   float: left;
@@ -153,7 +151,7 @@ h2 {
 
 .links-1 {
   position: absolute;
-  right: 0rem;
+  right: 0;
   top: 2rem;
   text-align: center;
 }
@@ -192,7 +190,6 @@ h2 {
   color: #fff;
 }
 
-
 .btn-ghost-card {
   background-color: #fff;
   color: #000;
@@ -216,21 +213,21 @@ h2 {
 }
 
 .section-right .section-2 p {
-  font-size: 1em;
+  font-size: 1rem;
   margin-top: 1em;
 }
 
 .section-right .section-2 h2 {
-  font-size: 2em;
+  font-size: 2rem;
   padding-top: 1em;
 }
 
 .section-left .section-1 p {
-  font-size: .5em;
+  font-size: .5rem;
 }
 
 .section-left .section-1 h2 {
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
 }
 
@@ -266,15 +263,14 @@ small {
 .footer-content {
   float: left;
   background-color: #ccc;
-  max-width: 50%
+  max-width: 50%;
 }
 
 .footer-content-2 {
   float: right;
   background-color: #ccc;
-  max-width: 50%
+  max-width: 50%;
 }
-
 
 .icons {
   float: right;
@@ -366,10 +362,10 @@ small {
     width: 80%;
   }
 
-.img-flex-section {
-  float: left;
-  width: 60%;
-}
+  .img-flex-section {
+    float: left;
+    width: 60%;
+  }
 
 }
 
@@ -387,8 +383,8 @@ small {
   }
 
   nav {
-  float: left;
-  width: 70%;
+    float: left;
+    width: 70%;
   }
 
   nav li {
@@ -402,7 +398,6 @@ small {
     left: 22rem;
   }
 
-
   .img-flex-2 {
     display: block;
     width: 100%;
@@ -414,7 +409,7 @@ small {
     left: 19rem;
   }
 
-  .cards{
+  .cards {
     width: 25%;
   }
 
@@ -424,16 +419,16 @@ small {
   }
 
   .section-right .section-2 h2 {
-    font-size: 2em;
+    font-size: 2rem;
     padding-top: 1em;
   }
 
   .section-left .section-1 p {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .section-left .section-1 h2 {
-    font-size: 1em;
+    font-size: 1rem;
     padding-top: 7em;
   }
 
@@ -466,63 +461,64 @@ small {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
   }
 
-.card-banner {
-  position: absolute;
-  top: 15rem;
-  left: 34rem;
-}
+  .card-banner {
+    position: absolute;
+    top: 15rem;
+    left: 34rem;
+  }
 
-.btn {
-  position: absolute;
-  bottom: 13em;
-  left: 27em;
-}
+  .btn {
+    position: absolute;
+    bottom: 13em;
+    left: 27em;
+  }
 
-.links-1 {
-  position: absolute;
-  right: 2rem;
-  top: 6rem;
-}
+  .links-1 {
+    position: absolute;
+    right: 2rem;
+    top: 6rem;
+  }
 
-.links-2 {
-  position: absolute;
-  left: 5rem;
-  top: 6.5rem;
-}
+  .links-2 {
+    position: absolute;
+    left: 5rem;
+    top: 6.5rem;
+  }
 
-.links-3 {
-  position: absolute;
-  left: 3rem;
-  top: 7.5rem;
-}
+  .links-3 {
+    position: absolute;
+    left: 3rem;
+    top: 7.5rem;
+  }
 
-.links-4 {
-  position: absolute;
-  left: 2rem;
-  top: 6.5rem;
-}
+  .links-4 {
+    position: absolute;
+    left: 2rem;
+    top: 6.5rem;
+  }
 
-footer {
-  clear: both;
-}
+  footer {
+    clear: both;
+  }
 
-.section-right .section-2 h2 {
-  padding-top: 6em;
-}
+  .section-right .section-2 h2 {
+    padding-top: 6em;
+  }
 
-.section-left .section-1 h2 {
-  font-size: 1em;
-  padding-top: 15em;
-}
+  .section-left .section-1 h2 {
+    padding-top: 15em;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
     line-height: 1.5;
