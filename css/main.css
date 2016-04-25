@@ -93,7 +93,7 @@ h2 {
 
 .card-banner {
   position: absolute;
-  top: 1em;
+  top: 2em;
   left: 10em;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%)
@@ -321,7 +321,7 @@ small {
 
   .btn {
     position: absolute;
-    bottom: 7em;
+    bottom: 5em;
     left: 10em;
   }
 
