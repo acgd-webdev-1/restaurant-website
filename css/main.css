@@ -96,7 +96,7 @@ h2 {
   top: 4em;
   left: 10em;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%)
+  -webkit-transform: translate(-50%, -50%);
   margin: 0;
   max-width: 45em;
   width: 100%;
@@ -113,8 +113,7 @@ p {
 span {
   font-size: 2rem;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #333;
 }
 
 h2 {
@@ -129,8 +128,8 @@ h2 {
   border-radius: 2px;
   font-size: 1.1rem;
   padding: 0.4em;
-  border: 3px solid #333;
-  background-color: #333;
+  border: 3px solid #fff;
+  background-color: #fff;
   color: #fff;
   position: absolute;
   bottom: .5em;
@@ -187,8 +186,8 @@ h2 {
   border-radius: 2px;
   font-size: 1rem;
   padding: 0.2em;
-  border: 3px solid #333;
-  background-color: #333;
+  border: 3px solid #fff;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -238,12 +237,14 @@ h2 {
   margin-top: 1rem;
   width: 60%;
   float: left;
+  border-radius: 8px;
 }
 
 .img-flex-section-2 {
   margin: 1em;
   width: 60%;
   float: right;
+  border-radius: 8px;
 }
 
 footer {
@@ -313,7 +314,7 @@ small {
     top: 4em;
     left: 15em;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
     margin: 0;
     max-width: 50em;
     width: 100%;
@@ -395,7 +396,7 @@ small {
     top: 7rem;
     left: 21rem;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
   }
 
   .img-flex-2 {
@@ -475,7 +476,7 @@ small {
     top: 6rem;
     left: 26rem;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
   }
 
   .btn {
@@ -569,13 +570,12 @@ small {
     width: 50%;
   }
 
-  .footer-content{
+  .footer-content {
     margin-left: 9em;
   }
 
   .footer-content-2 {
     margin-right: 9em;
   }
-
 
 }
