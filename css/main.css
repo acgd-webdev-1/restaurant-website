@@ -524,7 +524,7 @@ small {
   .card-banner {
     position: absolute;
     top: 13rem;
-    left: 57rem;
+    left: 35rem;
     font-size: 2rem;
   }
 
@@ -536,28 +536,28 @@ small {
 
   .links-1 {
     position: absolute;
-    right: 10rem;
-    top: 15rem;
+    right: 3rem;
+    top: 6rem;
   }
 
   .links-2 {
     position: absolute;
-    left: 10rem;
-    top: 15rem;
+    left: 5rem;
+    top: 6rem;
     text-align: center;
   }
 
   .links-3 {
     position: absolute;
-    left: 5rem;
-    top: 16rem;
+    left: 4rem;
+    top: 8rem;
     text-align: center;
   }
 
   .links-4 {
     position: absolute;
-    left: 7rem;
-    top: 15rem;
+    left: 2rem;
+    top: 8rem;
     text-align: center;
   }
 
