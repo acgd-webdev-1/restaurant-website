@@ -103,6 +103,11 @@ h2 {
   padding-right: 1em;
 }
 
+.banner-content {
+  -webkit-trasnform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+}
+
 p {
   text-align: center;
   font-weight: normal;
@@ -154,7 +159,7 @@ h2 {
 .links-1 {
   position: absolute;
   right: 0;
-  top: 10rem;
+  top: 7rem;
   text-align: center;
 }
 
@@ -309,8 +314,8 @@ small {
 
   .card-banner {
     position: absolute;
-    top: 2em;
-    left: 11.5em;
+    top: 4em;
+    left: 15em;
     transform: translateX(-50%);
     margin: 0;
     max-width: 50em;
@@ -319,8 +324,8 @@ small {
 
   .btn {
     position: absolute;
-    bottom: 1em;
-    left: 7em;
+    bottom: 7em;
+    left: 10em;
   }
 
   .cards {
@@ -331,13 +336,13 @@ small {
 
   .links-1 {
     position: absolute;
-    right: 0;
-    top: 3rem;
+    right: 2rem;
+    top: 5rem;
   }
 
   .links-2 {
     position: absolute;
-    left: 2rem;
+    left: 4rem;
     top: 4rem;
   }
 
@@ -357,6 +362,10 @@ small {
   .img-flex-section {
     float: left;
     width: 60%;
+  }
+
+  footer {
+    clear: both;
   }
 
 }
@@ -397,8 +406,8 @@ small {
 
   .btn {
     position: absolute;
-    bottom: 8rem;
-    left: 17rem;
+    bottom: 9rem;
+    left: 19rem;
   }
 
   .cards {
@@ -464,14 +473,14 @@ small {
 
   .card-banner {
     position: absolute;
-    top: 15rem;
-    left: 34rem;
+    top: 6rem;
+    left: 26rem;
   }
 
   .btn {
     position: absolute;
     bottom: 13em;
-    left: 27em;
+    left: 20em;
   }
 
   .links-1 {
