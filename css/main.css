@@ -222,6 +222,12 @@ img {
   margin: 0;
 }
 
+strong {
+  position: absolute;
+  color: #fff;
+  padding-left: 1rem;
+}
+
 .footer-nav {
   color: #000;
   position: absolute;
@@ -236,7 +242,7 @@ p {
 small {
   position: absolute;
   color: #fff;
-  top: 6rem;
+  top: 3rem;
   font-size: 0.5rem;
   padding-left: 1rem;
 }
