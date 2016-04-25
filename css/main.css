@@ -265,6 +265,7 @@ small {
   .btn {
     font-size: 1rem;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -311,7 +312,6 @@ small {
 
   .banner-content {
     left: 15%;
-
   }
 }
 
