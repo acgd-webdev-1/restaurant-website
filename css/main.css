@@ -95,9 +95,8 @@ h2 {
   position: absolute;
   top: 1em;
   left: 10em;
-  transform: translateX(-50%);
-  -webkit-trasnform: translate(-50%, -50%)
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%)
   margin: 0;
   max-width: 45em;
   width: 100%;
