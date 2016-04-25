@@ -253,7 +253,6 @@ small {
     display: inline-block;
   }
 
-
   h2 {
     font-size: 2rem;
   }
@@ -343,7 +342,7 @@ small {
 
   .banner-nav {
     display: block;
-    }
+  }
 
   nav li {
     width: auto;
