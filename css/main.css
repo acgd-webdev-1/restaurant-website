@@ -312,7 +312,8 @@ small {
     position: absolute;
     top: 4em;
     left: 15em;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
     margin: 0;
     max-width: 50em;
     width: 100%;
