@@ -394,6 +394,8 @@ small {
     position: absolute;
     top: 7rem;
     left: 21rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
   }
 
   .img-flex-2 {
@@ -472,6 +474,8 @@ small {
     position: absolute;
     top: 6rem;
     left: 26rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
   }
 
   .btn {
