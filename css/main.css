@@ -183,6 +183,7 @@ h2 {
   display: inline-block;
   text-decoration: none;
   border-radius: 8px;
+  border-radius: 2px;
   font-size: 1rem;
   padding: 0.2em;
   border: 3px solid #333;
@@ -330,29 +331,27 @@ small {
 
   .links-1 {
     position: absolute;
-    right: 1rem;
-    top: 6rem;
-    width: 80%;
+    right: 0;
+    top: 3rem;
   }
 
   .links-2 {
     position: absolute;
-    left: 3rem;
-    top: 6rem;
+    left: 2rem;
+    top: 4rem;
   }
 
   .links-3 {
     position: absolute;
     left: 2.5rem;
-    top: 6rem;
+    top: 4rem;
     width: 60%;
   }
 
   .links-4 {
     position: absolute;
-    left: 1rem;
-    top: 5rem;
-    width: 80%;
+    left: 0;
+    top: 2.6rem;
   }
 
   .img-flex-section {
@@ -500,14 +499,6 @@ small {
 
   footer {
     clear: both;
-  }
-
-  .section-right .section-2 h2 {
-    padding-top: 6em;
-  }
-
-  .section-left .section-1 h2 {
-    padding-top: 15em;
   }
 
 }
