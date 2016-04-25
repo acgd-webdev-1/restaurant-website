@@ -17,12 +17,19 @@ html {
   box-sizing: inherit;
 }
 
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 header {
   width: 100%;
 }
 
 .banner-img {
   width: 100%;
+  height: 1rem;
   display: block;
   margin: 0;
 }
@@ -49,23 +56,6 @@ h1 {
 nav ul {
   margin: 0;
   padding: 0;
-}
-
-nav {
-  display: none;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-label {
-  cursor: pointer;
 }
 
 nav li {
@@ -110,15 +100,16 @@ body {
   border-radius: 10px;
   border-width: 8px;
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 0.5rem;
   margin: 6px;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
+  position: absolute;
 }
 
 .btn-ghost {
   position: absolute;
   left: 50%;
-  bottom: 35%;
+  bottom: 50%;
   transform: translateX(-50%);
 }
 
@@ -129,7 +120,7 @@ body {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 1rem;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -138,8 +129,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
-  margin: 1.2rem 0;
+  font-size: 0.5rem;
+  margin: 0.5rem 0;
   text-align: center;
 }
 
@@ -148,14 +139,49 @@ h4 {
   padding-right: 0.5rem;
 }
 
- {
+img {
   width: 100%;
   float: right;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+}
+
+.nav-label img {
+  display: block;
+  width: 50px;
+}
+
+.nav-icon-open, .nav-icon-close {
+  width: 40px;
+  float: right;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
 }
 
 .section-img {
   width: 100%;
   float: left;
+  padding: 1rem;
 }
 
 .section-content-left {
@@ -170,7 +196,6 @@ h4 {
   display: block;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  overflow: hidden;
 }
 
 .footer {
@@ -192,6 +217,14 @@ p {
   padding-right: 0.5rem;
 }
 
+small {
+  position: absolute;
+  color: #fff;
+  top: 6rem;
+  font-size: 0.5rem;
+  padding-left: 1rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li {
@@ -199,6 +232,25 @@ p {
     text-align: center;
   }
 
+
+  h2 {
+      font-size: 2.5rem;
+    }
+
+  h3 {
+      font-size: 1.5rem;
+    }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .btn-ghost {
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -231,6 +283,9 @@ p {
     padding: 1rem;
   }
 
+  h2 {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {

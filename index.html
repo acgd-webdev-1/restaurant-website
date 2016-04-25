@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -10,14 +9,17 @@
 </head>
 <body>
   <header>
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label" for="nav-check">
+      <img class="nav-icon-open" src="images/nav-icon.svg" alt="Open Navigiation">
+      <img class="nav-icon-close" src="images/nav-icon-close.svg" alt="Close Navigiation">
+    </label>
     <div class="banner-img">
       <img src="images/35th-banner.jpg" alt="Banner">
     </div>
     <div class="banner">
       <h1>35th Street Market Cafe</h1>
       <nav class="banner-nav">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="nav-label" for="nav-check">Navigate</label>
         <ul>
           <li><a href="#menu"> Menu</a></li>
           <li><a href="#company">Company</a></li>
@@ -31,37 +33,37 @@
       <h3> Largest variety of fast and easy breakfast</h3>
     </div>
     <div>
-      <a class="btn btn-ghost" href="#">View Menu</a>
+      <a class="btn btn-ghost" href="#menu">View Menu</a>
     </div>
   </header>
   <main>
-    <section class="section">
+    <section class="section clearfix">
       <div class="section-content-left">
         <h4 id="menu">Menu</h4>
-        <p>Welcome to our made-to-order fresh and prepared in house meals and grab and go convenience store. Be sure to watch for the special meal events we host for students throughout the year! We welcome your suggestions to cater to your tastes.</p>
+        <p>Discover and indulge in our fast and fresh dishes that are all simply delicious. We offer a wide variety of on-the-go breakfast foods including: fresh fruit, french toast, waffles, and much more. Our breakfast are made with high-quality, simple ingredients that satisfy your taste buds with every bite.</p>
       </div>
       <img class="section-img section-img-right" src="images/resturantx-menu.jpg" alt="Menu image">
     </section>
-    <section class="section">
-        <div class="section-content-right">
-          <h4 id="company">Company</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id metus nec metus dapibus varius vel non leo. Nullam placerat a eros a pretium. Donec id mollis ipsum. Donec lacus libero, pretium vitae blandit id, molestie nec ex. Vestibulum quis diam scelerisque, semper quam at, efficitur augue. Ut a justo.</p>
-        </div>
+    <section class="section clearfix">
+      <div class="section-content-right">
+        <h4 id="company">Company</h4>
+        <p>35th Street Market Cafe is a well known company, that always puts their students first. We will always offers fresh, on-the-go foods to make a student’s day that much easier. We will transform our students mornings and they will always leave with a smile.</p>
+      </div>
       <img class="section-img section-img-left" src="images/resturantx-company.jpg" alt="Company image">
     </section>
-    <section class="section">
-        <div class="section-content-left">
-          <h4 id="nutrition">Nutrition</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id metus nec metus dapibus varius vel non leo. Nullam placerat a eros a pretium. Donec id mollis ipsum. Donec lacus libero, pretium vitae blandit id, molestie nec ex. Vestibulum quis diam scelerisque, semper quam at, efficitur augue. Ut a justo.</p>
-        </div>
-        <img class="section-img section-img-right" src="images/food-healthy-man-person-large.jpeg" alt="Nutrition image">
+    <section class="section clearfix">
+      <div class="section-content-left">
+        <h4 id="nutrition">Nutrition</h4>
+        <p>Part of living well means finding the right balance for you. So whether you’re counting calories, watching your fat and sugar intake, or looking for more fibre or protein, we can help you make the choices that work. Everything we offer is made from great, fresh-tasting ingredients.</p>
+      </div>
+      <img class="section-img section-img-right" src="images/food-healthy-man-person-large.jpeg" alt="Nutrition image">
     </section>
-    <section class="section">
-        <div class="section-content-right">
-          <h4 id="contact-info">Contact Information</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id metus nec metus dapibus varius vel non leo. Nullam placerat a eros a pretium. Donec id mollis ipsum. Donec lacus libero, pretium vitae blandit id, molestie nec ex. Vestibulum quis diam scelerisque, semper quam at, efficitur augue. Ut a justo.</p>
-        </div>
-        <img class="section-img section-img-left" src="images/35th-street-contact.jpg" alt="Contact image">
+    <section class="section clearfix">
+      <div class="section-content-right">
+        <h4 id="contact-info">Contact Information</h4>
+        <p>613-727-7698<br>1385 Woodroffe Ave, Ottawa, ON K2G 1V8 <br>http://www.algonquinrez.ca/facilities.html</p>
+      </div>
+      <img class="section-img section-img-left" src="images/35th-street-contact.jpg" alt="Contact image">
     </section>
   </main>
   <footer>
@@ -76,6 +78,7 @@
           <li><a href="#contact-info">Contact Information</a></li>
         </ul>
       </nav>
+      <small>© 2016 35th Stree Market Cafe. All right reserved. <br>Privacy ploicy. Terms and conditions</small>
     </div>
   </footer>
 </body>
