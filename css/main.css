@@ -50,6 +50,7 @@ main {
   position: absolute;
   left: 25%;
   top: 5%;
+  text-align: center;
 }
 
 .banner-nav {
@@ -57,8 +58,8 @@ main {
   color: #fff;
   max-height: 500px;
   position: absolute;
-  top: 0;
   right: 2%;
+  display: block;
 }
 
 h1 {
@@ -157,10 +158,6 @@ img {
 .nav-check {
   position: absolute;
   top: -3em;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: grey;
 }
 
 .nav-icon-open, .nav-icon-close {
@@ -291,12 +288,10 @@ small {
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
-  h3 {
-    font-size: 2rem;
-  }
+
 }
 
 @media only screen and (min-width: 60em) {
