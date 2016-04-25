@@ -93,7 +93,7 @@ h2 {
 
 .card-banner {
   position: absolute;
-  top: 2em;
+  top: 4em;
   left: 10em;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%)
@@ -134,7 +134,7 @@ h2 {
   color: #fff;
   position: absolute;
   bottom: .5em;
-  left: 5em;
+  left: 6em;
 }
 
 .btn-ghost-banner {
@@ -155,7 +155,7 @@ h2 {
 .links-1 {
   position: absolute;
   right: 0;
-  top: 7rem;
+  top: 3rem;
   text-align: center;
 }
 
@@ -168,8 +168,8 @@ h2 {
 
 .links-3 {
   position: absolute;
-  left: 2rem;
-  top: 3rem;
+  left: 1rem;
+  top: 4rem;
   text-align: center;
 }
 
