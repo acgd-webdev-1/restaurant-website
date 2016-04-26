@@ -253,6 +253,7 @@ span {
 .section-right {
   clear: both;
   font-size: .5rem;
+  margin: .5rem;
 }
 
 .section-right .section-2 p {
@@ -266,15 +267,15 @@ span {
 }
 
 .section-right .section-2 h2 {
-  margin: 1em;
-  padding-top: 3em;
+  margin: .5em;
+  padding-top: 2em;
   font-size: 1.1rem;
   border-top: solid 3px #333333;
 }
 
 .section-left .section-1 h2 {
-  margin: 1em;
-  padding-top: 6em;
+  margin: .5em;
+  padding-top: 3em;
   font-size: 1.1rem;
   border-top: solid 3px #333333;
 }
@@ -292,11 +293,11 @@ span {
   margin-left: 1rem;
   width: 60%;
   float: right;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .img-5 {
-  margin-bottom: 3em;
+  margin-bottom: 9em;
 }
 
 footer {
@@ -305,6 +306,7 @@ footer {
   text-align: center;
   overflow: hidden;
   font-size: .5rem;
+  clear: both;
 }
 
 .img-footer {
