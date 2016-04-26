@@ -50,7 +50,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  border: 1px solid #333;
+  padding: .5rem;
   font-family: serif, "Roboto Slab";
 }
 
@@ -65,7 +65,7 @@ nav {
 }
 
 .nav {
-    display: none;
+  display: none;
 }
 
 .nav-check {
@@ -118,7 +118,6 @@ h2 {
   overflow: hidden;
   position: relative;
   max-height: 800px;
-
 }
 
 .card-banner {
@@ -394,6 +393,15 @@ small {
     margin: 0;
   }
 
+  .card-banner {
+  font-size: 1.5rem;
+  }
+
+  .btn {
+    bottom: 30%;
+    left: 42%;
+  }
+
   nav {
     float: left;
     width: 70%;
@@ -406,14 +414,29 @@ small {
   .nav-label {
     display: none;
   }
-  
+
   nav li {
-    width: 25%;
-    padding: 1rem;
+    width: 24%;
   }
 
   .cards {
     width: 25%;
+  }
+
+  .section-right .section-2 p {
+    font-size: .8rem;
+  }
+
+  .section-left .section-1 p {
+    font-size: .8rem;
+  }
+
+  .section-right .section-2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-left .section-1 h2 {
+    font-size: 1.5rem;
   }
 
   footer {
@@ -428,6 +451,31 @@ small {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .card-banner {
+  font-size: 1.5rem;
+  }
+
+  .btn {
+    bottom: 40%;
+    left: 45%;
+  }
+
+  .section-right .section-2 p {
+    font-size: 1.5rem;
+  }
+
+  .section-left .section-1 p {
+    font-size: 1.5rem;
+  }
+
+  .section-right .section-2 h2 {
+    font-size: 2rem;
+  }
+
+  .section-left .section-1 h2 {
+    font-size: 2rem;
   }
 
   footer {
