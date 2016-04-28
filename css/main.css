@@ -160,7 +160,7 @@ h2 {
   background-color: #fff;
   color: #000;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 35%;
   font-family: "Amaranth";
 }
@@ -363,6 +363,11 @@ small {
     margin-right: 0;
   }
 
+  .btn a {
+    bottom: 15%;
+    left: 35%;
+  }
+
   .links-1 {
     top: 10%;
     left: 2%;
@@ -408,7 +413,7 @@ small {
   }
 
   .btn a {
-    bottom: 35%;
+    bottom: 20%;
     left: 43%;
   }
 
