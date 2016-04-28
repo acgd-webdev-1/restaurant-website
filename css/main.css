@@ -51,7 +51,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   padding: .5rem;
-  font-family: serif, "Roboto Slab";
+  font-family: "Amaranth";
 }
 
 nav a:hover {
@@ -151,27 +151,28 @@ h2 {
   margin: 0;
 }
 
-.btn {
+.btn a {
   display: inline-block;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 8px;
   font-size: 1.1rem;
   padding: 0.4em;
-  border: 3px solid #fff;
   background-color: #fff;
-  color: #fff;
+  color: #000;
   position: absolute;
   bottom: 10%;
   left: 35%;
+  font-family: "Amaranth";
 }
 
-.btn-ghost-banner {
+.btn-ghost-banner a {
   background-color: #fff;
   color: #000;
 }
 
-.btn-ghost-banner:hover {
-  background-color: #333;
+.btn-ghost-banner:hover a {
+  background-color: #ccc;
+  color: #fff;
 }
 
 span {
@@ -217,10 +218,8 @@ span {
   display: inline-block;
   text-decoration: none;
   border-radius: 8px;
-  border-radius: 2px;
   font-size: 1rem;
   padding: 0.2em;
-  border: 3px solid #fff;
   background-color: #fff;
   color: #fff;
 }
@@ -232,6 +231,7 @@ span {
 
 .btn-ghost-card:hover {
   background-color: #ccc;
+  color: #fff;
 }
 
 .menu-section {
@@ -363,6 +363,16 @@ small {
     margin-right: 0;
   }
 
+  .links-1 {
+    top: 10%;
+    left: 2%;
+  }
+
+  .links-2 {
+    top: 10%;
+    left: 18%;
+  }
+
   .cards {
     position: relative;
     float: left;
@@ -394,12 +404,12 @@ small {
   }
 
   .card-banner {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
-  .btn {
-    bottom: 30%;
-    left: 42%;
+  .btn a {
+    bottom: 35%;
+    left: 43%;
   }
 
   nav {
@@ -454,10 +464,10 @@ small {
   }
 
   .card-banner {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
-  .btn {
+  .btn a {
     bottom: 40%;
     left: 45%;
   }
