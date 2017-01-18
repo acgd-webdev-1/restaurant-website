@@ -1,0 +1,400 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 2000;
+}
+
+main {
+  clear: both;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-whole {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  left: 15%;
+  top: 3rem;
+  text-align: center;
+}
+
+.banner-nav {
+  margin: 0;
+  color: #fff;
+  max-height: 500px;
+  position: absolute;
+  right: 2%;
+  display: block;
+  background-color: #000;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  text-align: right;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+.banner-body {
+  font-style: italic;
+  max-width: 45em;
+  padding: 0 1rem 0 1rem;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  padding: .45em;
+  border-radius: 10px;
+  border-width: 8px;
+  display: inline-block;
+  font-size: 0.5rem;
+  margin: 6px;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+  border-width: 1px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+  display: inline;
+}
+
+h3 {
+  font-size: 0.7rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+h4 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+img {
+  width: 100%;
+  float: right;
+}
+
+.nav-check:checked ~ .banner-nav {
+  display: block;
+}
+
+.banner-nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-icon-open, .nav-icon-close {
+  width: 20px;
+}
+
+.nav-icon-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-close {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-open {
+  display: none;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 50px;
+  float: right;
+  right: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  position: absolute;
+  top: 0;
+}
+
+.section-img {
+  width: 100%;
+  float: left;
+  padding: 1rem;
+}
+
+.section-content-left {
+  width: 100%;
+}
+
+.section-content-right {
+  width: 100%;
+}
+
+.section {
+  display: block;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-img {
+  margin: 0;
+}
+
+strong {
+  position: absolute;
+  color: #fff;
+  padding-left: 1rem;
+}
+
+.footer-nav {
+  color: #000;
+  position: absolute;
+  top: 3rem;
+}
+
+p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+small {
+  position: absolute;
+  color: #fff;
+  top: 3rem;
+  font-size: 0.5rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    display: inline-block;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-img-right {
+    float: right;
+    width: 50%;
+    padding: 1rem;
+  }
+
+  .section-content-left {
+    width: 49%;
+    float: left;
+    padding-left: 0.5rem;
+  }
+
+  .section-content-right {
+    width: 49%;
+    float: right;
+  }
+
+  .section-img-left {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .banner-content {
+    left: 15%;
+    top: 5rem;
+  }
+
+  .banner-nav {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .nav-icon-open, .nav-icon-close {
+    display: none;
+  }
+
+  .banner-nav {
+    display: block;
+  }
+
+  nav li {
+    width: auto;
+  }
+
+  .banner-nav {
+    top: 0;
+  }
+
+  .banner-content {
+    left: 10%;
+    top: 5rem;
+  }
+
+  .banner-nav {
+    background-color: inherit;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .banner-content {
+    left: 30%;
+    top: 20%;
+  }
+
+}
